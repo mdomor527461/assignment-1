@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    background-color: rgb(13, 12, 12);
+}
+#download{
+    color:white;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.nav-menu{
+    height: 20px;
+}
+.nav-design{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    gap:150px;
+}
+.banner-desc{
+    margin-top : 100px;
+}
+.banner-img{
+    margin-top: 100px;
+}
+.image-banner{
+    height: 300px;
+    width: 250px;
+}
+.banner-desc h1{
+    color:teal;
+}
+.banner-desc h5,p{
+    color:white;
+    margin-top: 20px;
+}
+.icons i{
+    border-radius: 2px;
+    margin: 10px;
+}
+.bg-info{
+    border: none;
+    border-radius: 3px;
+}
+.card-image{
+    height: 300px;
+    width: 300px;
+}
+.p-card{
+    width: 80%;
+    height: 350px;
+    border: 1px solid gray;
+    margin:  0 auto;
+}
+.course p{
+    display: inline;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+@media (max-width: 1224px) {
+    .prt1{
+        padding-bottom: 100px;
+      }
+      .prt2{
+       padding-top:100px;
+       padding-bottom: 100px;
+      }
+     }
+@media (max-width: 1024px) {
+   .prt1{
+     padding-bottom: 250px;
+   }
+   .prt2{
+    padding-top:250px;
+    padding-bottom: 250px;
+   }
+  }
+  
+  /* Media query for phones (landscape and portrait) */
+  @media (max-width: 768px) {
+    .prt1{
+        padding-bottom: 350px;
+      }
+      .prt2{
+       padding-top:350px;
+       padding-bottom: 350px;
+      }
+    }
+.skill-education{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.skill-education h1{
+    color: white;
+}
+.expertise{
+    padding-left: 20px;
+    text-align: center;
+}
+.expertise p{
+    display: inline;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.comfortable{
+    padding-left: 20px;
+    text-align: center;
+}
+.comfortable p{
+    display: inline;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.familiar{
+    padding-left: 20px;
+    text-align: center;
+}
+.familiar p{
+    display: inline;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+.education{
+    justify-content: center;
+}
+.card{
+    border:1px solid gray;
+    box-shadow: 2px 2px 2px gray;
+    height: 250px;
+    width: 350px;
+    margin: 0 auto;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+.card input{
+    height: 40px;
+    margin: 5px;
+}
+.card button{
+    background-color: gray;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+.contact{
+    padding-top : 200px;
+    padding-bottom: 20px;
+}
+.footer{
+    border-top:1px solid gray;
+}
